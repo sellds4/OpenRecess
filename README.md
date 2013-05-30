@@ -1,3 +1,7 @@
+Group project completed at Hack Reactor.
+
+www.openrecess.com
+
 OpenRecess
 ==========
 
