@@ -15,7 +15,6 @@ var twilioPhoneNumber = config.twilioNumber;
 
 var client = require('twilio')(accountSid, authToken);
 
-
 exports.sendSMS = function(message, userNumber, twilioNumber, req, res) {
   client.sms.messages.create({
       body: message,
